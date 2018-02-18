@@ -33,9 +33,10 @@ header .headline {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  /* placeholder from https://www.pexels.com/photo/grayscale-photography-of-staircase-162387/ */
-  background-image: url(images/missing-stair.jpg);
+  /* placeholder from https://www.flickr.com/photos/122127718@N08/26495328891/ */
+  background-image: url(images/vintage-book.jpg);
   background-size: cover;
+  background-position-y: center;
   padding: 50px;
 }
 header .headline img {
