@@ -46,8 +46,10 @@ header .headline .title {
   margin-top: 10%;
   margin-left: -20%;
   align-self: center;
-  padding: 20px;
+  padding: 10px 20px;
   background-color: rgba(200, 200, 200, 0.8);
+  box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
+  border-radius: 5px;
 }
 
 header .mission {
@@ -70,6 +72,8 @@ section.board p {
   right: 0;
   padding: 10px;
   background-color: rgba(200, 200, 200, 0.8);
+  box-shadow: 0 5px 5px rgba(200, 200, 200, 0.8);
+  border-radius: 0 0 0 5px;
   font-size: 1.2em;
 }
 
@@ -87,4 +91,10 @@ footer {
 footer a {
   color: #ffffdd;
   text-decoration: none;
+  padding: 10px;
+}
+footer a:hover, footer a:focus {
+  border-color: rgba(200, 200, 200, 0.8);
+  box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
+  border-radius: 5px;
 }
