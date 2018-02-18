@@ -1,14 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@font-face {
-  font-family: ‘Fontice-IconsFont’;
-  src: url(‘../yourpath/Fontice-IconsFont.eot?v=1.0’);
-  src: url(‘../yourpath/Fontice-IconsFont.eot?v=1.0#iefix’) format(’embedded-opentype’),
-    url(‘../yourpath/Fontice-IconsFont.ttf?v=1.0’) format(‘truetype’),
-    url(‘../yourpath/Fontice-IconsFont.woff?v=1.0’) format(‘woff’),
-    url(‘../yourpath/Fontice-IconsFont.svg?v=1.0#Fontice-IconsFont’) format(‘svg’);
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
   font-family: 'Roboto Mono', monospace;
