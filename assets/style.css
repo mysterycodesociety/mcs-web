@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@font-face {
+  font-family: ‘Fontice-IconsFont’;
+  src: url(‘../yourpath/Fontice-IconsFont.eot?v=1.0’);
+  src: url(‘../yourpath/Fontice-IconsFont.eot?v=1.0#iefix’) format(’embedded-opentype’),
+    url(‘../yourpath/Fontice-IconsFont.ttf?v=1.0’) format(‘truetype’),
+    url(‘../yourpath/Fontice-IconsFont.woff?v=1.0’) format(‘woff’),
+    url(‘../yourpath/Fontice-IconsFont.svg?v=1.0#Fontice-IconsFont’) format(‘svg’);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  background-color: #ffffdd;
+  color: #000040;
+}
+
+h1 {
+  font-size: 2.5em;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 2em;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header .headline {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* placeholder from https://www.pexels.com/photo/grayscale-photography-of-staircase-162387/ */
+  background-image: url(images/missing-stair.jpg);
+  background-size: cover;
+  padding: 50px;
+}
+header .headline img {
+  width: 40%;
+}
+header .headline .title {
+  margin-top: 10%;
+  margin-left: -20%;
+  align-self: center;
+  padding: 20px;
+  background-color: rgba(200, 200, 200, 0.8);
+}
+
+header .mission {
+  align-self: center;
+  margin: 50px;
+}
+header .mission p {
+  font-size: 1.2em;
+}
+
+section.board {
+  position: relative;
+}
+section.board img {
+  width: 100%;
+}
+section.board p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(200, 200, 200, 0.8);
+  font-size: 1.2em;
+}
+
+section.about {
+  margin: 50px;
+}
+
+footer {
+  background-color: #000060;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+footer a {
+  color: #ffffdd;
+  text-decoration: none;
+}
