@@ -14,7 +14,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   background-color: #ffffdd;
-  color: #000040;
+  color: #154158;
 }
 
 h1 {
@@ -78,7 +78,7 @@ section.about {
 }
 
 footer {
-  background-color: #000060;
+  background-color: #154158;
   display: flex;
   align-items: center;
   justify-content: space-around;
