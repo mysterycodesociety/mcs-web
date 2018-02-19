@@ -26,7 +26,7 @@ section.main {
   align-items: flex-end;
   justify-content: center;
   /* placeholder from https://www.flickr.com/photos/122127718@N08/26495328891/ */
-  background-image: url(images/vintage-book.jpg);
+  background-image: url(images/vintage-book-muted.jpg);
   background-size: cover;
   background-position-y: center;
   padding: 50px;
