@@ -15,11 +15,13 @@ h2 {
   font-size: 2em;
 }
 
-header {
+section.main {
+  margin: 50px;
   display: flex;
   flex-direction: column;
 }
-header .headline {
+
+.headline {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -29,10 +31,10 @@ header .headline {
   background-position-y: center;
   padding: 50px;
 }
-header .headline img {
+.headline img {
   width: 40%;
 }
-header .headline .title {
+.headline .title {
   margin-top: 10%;
   margin-left: -20%;
   align-self: center;
@@ -42,21 +44,20 @@ header .headline .title {
   border-radius: 5px;
 }
 
-header .mission {
+.mission {
   align-self: center;
-  margin: 50px;
 }
-header .mission p {
+.mission p {
   font-size: 1.2em;
 }
 
-section.board {
+.board {
   position: relative;
 }
-section.board img {
+.board img {
   width: 100%;
 }
-section.board p {
+.board p {
   position: absolute;
   top: 0;
   right: 0;
@@ -67,9 +68,6 @@ section.board p {
   font-size: 1.2em;
 }
 
-section.about {
-  margin: 50px;
-}
 
 footer {
   background-color: #154158;

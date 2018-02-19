@@ -1,0 +1,28 @@
+.main > section {
+  margin-bottom: 20px;
+}
+
+.main > h1 {
+  align-self: center;
+}
+
+.lead-statement {
+  margin: 20px;
+}
+
+p {
+  padding: 10px;
+}
+
+ul {
+  padding: 10px 40px;
+}
+
+@media print {
+  section.main {
+    margin: 20px;
+  }
+  footer {
+    display: none;
+  }
+}
