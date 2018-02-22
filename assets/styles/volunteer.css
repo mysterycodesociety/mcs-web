@@ -1,0 +1,13 @@
+.applications {
+  display: flex;
+}
+.applications h2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+  align-items: center;
+}
+
+.applications h2  a.button {
+  margin: 10px 0px;
+}

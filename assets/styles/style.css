@@ -14,6 +14,10 @@ h2 {
   font-size: 2em;
 }
 
+p {
+  padding: 10px;
+}
+
 ul {
   padding: 10px 40px;
 }
@@ -26,17 +30,6 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-section.main {
-  margin: 50px;
-  min-height: calc(100vh - (140px + 100px));
-}
-
-.main > h1 {
-  width: 100%;
-  text-align: center;
-  white-space: nowrap;
-}
-
 a.button {
   box-shadow: 0 0 5px rgba(19, 140, 171, 0.8);
   border-radius: 5px;
@@ -47,6 +40,27 @@ a.button:hover, a.button:focus {
   background-color: rgb(19, 140, 171);
   color: #ffffdd;
   text-decoration: none;
+}
+
+section.main {
+  margin: 50px;
+  min-height: calc(100vh - (140px + 100px));
+}
+.main > h1 {
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+}
+.main > section {
+  margin-bottom: 20px;
+}
+.main > .lead-statement {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.main > .lead-statement > p {
+  padding: 0px;
 }
 
 footer {

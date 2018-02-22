@@ -1,15 +1,3 @@
-.main > section {
-  margin-bottom: 20px;
-}
-
-.lead-statement {
-  margin: 20px;
-}
-
-p {
-  padding: 10px;
-}
-
 @media print {
   section.main {
     margin: 20px;
