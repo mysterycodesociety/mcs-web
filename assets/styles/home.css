@@ -1,0 +1,29 @@
+.headline {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* placeholder from https://www.flickr.com/photos/122127718@N08/26495328891/ */
+  background-image: url(../images/vintage-book-muted.jpg);
+  background-size: cover;
+  background-position-y: center;
+  padding: 50px;
+}
+.headline img {
+  width: 40%;
+}
+.headline .title {
+  margin-top: 10%;
+  margin-left: -20%;
+  align-self: center;
+  padding: 10px 20px;
+  background-color: rgba(200, 200, 200, 0.8);
+  box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
+  border-radius: 5px;
+}
+
+.mission {
+  align-self: center;
+}
+.mission p {
+  font-size: 1.2em;
+}
