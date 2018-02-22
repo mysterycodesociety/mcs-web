@@ -21,14 +21,10 @@
   border-radius: 5px;
 }
 
-.mission {
+.about, .mission {
   margin: 50px;
-  align-self: center;
 }
-.mission p {
+.about, .mission p {
   font-size: 1.2em;
 }
 
-.about {
-  margin: 50px;
-}

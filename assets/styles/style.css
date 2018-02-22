@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Merriweather:300,300i,400,400i,700,700i,900,900i');
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
   background-color: #ffffdd;
-  color: #14618a;
-}
-strong {
   color: #154158;
 }
 
@@ -15,6 +12,9 @@ h1 {
 }
 h2 {
   font-size: 2em;
+}
+h1, h2 {
+  font-family: 'Kavivanar', cursive;
 }
 
 p {
@@ -26,17 +26,23 @@ ul {
 }
 
 a {
-  color: #e12a20;
+  /* color: #e12a20; red, feels like too much */
+  color: rgb(19, 140, 171);
   text-decoration: none;
 }
 a:hover, a:focus {
-  text-decoration: underline;
+  color: #e12a20;
+  text-decoration-line: underline;
+  /* eh, maybe
+  text-decoration-style: dashed;
+  text-decoration-skip-ink: none;*/
 }
 
 a.button {
   box-shadow: 0 0 5px rgba(19, 140, 171, 0.8);
   border-radius: 5px;
   text-decoration: none;
+  font-family: 'Kavivanar', cursive;
   padding: 20px;
   color: #14618a;
 }
@@ -75,15 +81,13 @@ footer {
   padding: 50px;
   height: 40px;
 }
-footer a {
+footer a.button {
   color: #ffffdd;
-  text-decoration: none;
+  box-shadow: none;
   padding: 10px;
-  font-size: 1em;
   line-height: 20px;
 }
-footer a:hover, footer a:focus {
-  box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
-  border-radius: 5px;
-  text-decoration: none;
+footer a.button:hover, footer a.bu:focus {
+  box-shadow:  0 0 5px rgba(200, 200, 200, 0.8);
+  background-color: transparent;
 }
