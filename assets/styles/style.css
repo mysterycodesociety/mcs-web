@@ -4,6 +4,9 @@ body {
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   background-color: #ffffdd;
+  color: #14618a;
+}
+strong {
   color: #154158;
 }
 
@@ -23,7 +26,7 @@ ul {
 }
 
 a {
-  color: rgb(19, 140, 171);
+  color: #e12a20;
   text-decoration: none;
 }
 a:hover, a:focus {
@@ -35,6 +38,7 @@ a.button {
   border-radius: 5px;
   text-decoration: none;
   padding: 20px;
+  color: #14618a;
 }
 a.button:hover, a.button:focus {
   background-color: rgb(19, 140, 171);
