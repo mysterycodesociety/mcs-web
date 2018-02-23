@@ -9,7 +9,7 @@
   padding: 50px;
 }
 .headline img {
-  width: 40%;
+  height: calc(100vh - 100px);
 }
 .headline .title {
   margin-top: 10%;
@@ -27,4 +27,3 @@
 .about, .mission p {
   font-size: 1.2em;
 }
-
