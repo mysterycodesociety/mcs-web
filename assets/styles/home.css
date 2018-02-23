@@ -13,7 +13,8 @@
 }
 .headline .title {
   margin-top: 10%;
-  margin-left: -20%;
+  margin-left: -30%;
+  white-space: nowrap;
   align-self: center;
   padding: 10px 20px;
   background-color: rgba(200, 200, 200, 0.8);
