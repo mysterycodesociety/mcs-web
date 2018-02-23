@@ -1,3 +1,11 @@
+nav:before {
+  content: "";
+  height: 30px;
+  min-width: 40px;
+  background-image: url("../images/red-hat-sunglasses.png");
+  background-size: cover;
+  margin: 5px;
+}
 nav {
   list-style-type: none;
   position: fixed;
