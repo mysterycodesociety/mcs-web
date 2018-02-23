@@ -6,7 +6,7 @@ nav {
   background-color: #154158;
   display: flex;
 }
-li {
+nav > li {
   list-style-type: none;
   height: 20px;
   padding: 10px;
