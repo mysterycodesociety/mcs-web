@@ -14,12 +14,11 @@ nav > li {
 nav li a {
   line-height: 20px;
   color: #ffffdd;
-  padding: 5px 10px;
+  padding: 5px;
 }
 nav li a:hover, nav li a:focus {
   color: #f7db54;
   text-decoration: none;
-  box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
 }
 nav li a.active {
   color: #f7db54;
