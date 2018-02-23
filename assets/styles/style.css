@@ -53,6 +53,7 @@ a.button:hover, a.button:focus {
 }
 
 section.main {
+  padding-top: 40px;/* for nav */
   margin: 50px;
   min-height: calc(100vh - (140px + 100px));
 }
