@@ -1,0 +1,27 @@
+nav {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #154158;
+  display: flex;
+}
+li {
+  list-style-type: none;
+  height: 20px;
+  padding: 10px;
+}
+nav li a {
+  line-height: 20px;
+  color: #ffffdd;
+  padding: 5px 10px;
+}
+nav li a:hover, nav li a:focus {
+  color: #ffffdd;
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
+}
+nav li a.active {
+  color: #fb8482;
+  box-shadow: none;
+}
