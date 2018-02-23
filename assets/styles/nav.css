@@ -17,11 +17,11 @@ nav li a {
   padding: 5px 10px;
 }
 nav li a:hover, nav li a:focus {
-  color: #ffffdd;
+  color: #f7db54;
   text-decoration: none;
   box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
 }
 nav li a.active {
-  color: #fb8482;
+  color: #f7db54;
   box-shadow: none;
 }

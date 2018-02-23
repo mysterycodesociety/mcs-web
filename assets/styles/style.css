@@ -27,15 +27,14 @@ ul {
 
 a {
   /* color: #e12a20; red, feels like too much */
-  color: rgb(19, 140, 171);
+  color: #00809d;
   text-decoration: none;
 }
 a:hover, a:focus {
   color: #e12a20;
   text-decoration-line: underline;
-  /* eh, maybe
   text-decoration-style: dashed;
-  text-decoration-skip-ink: none;*/
+  text-decoration-skip-ink: none;
 }
 
 a.button {
