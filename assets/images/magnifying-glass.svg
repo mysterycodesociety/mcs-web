@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="581px" height="614px" viewBox="0 0 581 614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>magnifying-glass</title>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="magnifying-glass" transform="translate(323.000000, 275.000000) scale(-1, 1) translate(-323.000000, -275.000000) translate(-9.000000, -74.000000)" fill-rule="nonzero">
+            <circle id="path4191" fill="#C1C1C1" transform="translate(254.811441, 254.956897) rotate(-42.330531) translate(-254.811441, -254.956897) " cx="254.811441" cy="254.956897" r="180.0849"></circle>
+            <rect id="rect4197" fill="#C1C1C1" transform="translate(373.171286, 384.893536) rotate(-42.330531) translate(-373.171286, -384.893536) " x="321.306836" y="358.961306" width="103.7289" height="51.8644601"></rect>
+            <circle id="circle4193" fill="#D5FDFF" transform="translate(254.811441, 254.956897) rotate(-42.330531) translate(-254.811441, -254.956897) " cx="254.811441" cy="254.956897" r="163.23851"></circle>
+            <rect id="rect4199" fill="#F7DA55" transform="translate(512.014499, 537.316943) rotate(-42.330531) translate(-512.014499, -537.316943) " x="464.125717" y="364.385213" width="95.7775652" height="345.863461" rx="23.27927"></rect>
+            <path d="M286.188458,141.730653 C283.131878,181.354969 317.564171,222.539291 295.198859,218.726399 C272.833542,214.913508 256.439211,179.546928 258.581085,139.732978 C260.722948,99.9189876 283.843644,53.5186038 302.955254,74.5472374 C325.499599,99.3529639 288.42284,112.764927 286.188458,141.730653 Z" id="circle4201" fill="#FFFFFF" transform="translate(284.295776, 144.138336) rotate(105.000000) translate(-284.295776, -144.138336) "></path>
+        </g>
+    </g>
+</svg>
