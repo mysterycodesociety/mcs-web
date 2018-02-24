@@ -1,0 +1,88 @@
+.badges {
+  float: right;
+}
+
+.badge-container {
+  float: left;
+  position: relative;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 2px;
+}
+
+.gwc-badge {
+  color: black;
+  text-align: center;
+  font-size: 10pt;
+  font-family: "Source Code Pro";
+  width: 40px;
+  height: 20px;
+  position: relative;
+}
+.gwc-badge:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid;
+}
+.gwc-badge:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid;
+}
+
+.instructor {
+  background: #f4364c;
+  color: white;
+}
+.instructor:before {
+  border-bottom-color: #f4364c;
+}
+.instructor:after {
+  border-top-color: #f4364c;
+}
+
+.ta {
+  background: #6eceb2;
+  color: #01426a;
+}
+.ta:before {
+  border-bottom-color: #6eceb2;
+}
+.ta:after {
+  border-top-color: #6eceb2;
+}
+
+.organizer {
+  background: #01426a;
+  color: white;
+}
+.organizer:before {
+  border-bottom-color: #01426a;
+}
+.organizer:after {
+  border-top-color: #01426a;
+}
+
+.speaker {
+  background: #ece81a;
+  color: #01426a;
+}
+.speaker:before {
+  border-bottom-color: #ece81a;
+}
+.speaker:after {
+  border-top-color: #ece81a;
+}

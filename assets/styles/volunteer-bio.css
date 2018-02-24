@@ -1,0 +1,78 @@
+.bio-container {
+  max-width: 280px;
+  padding: 0 10px;
+}
+
+.bio {
+  font-family: "Open Sans Condensed";
+  background-attachment: fixed;
+  margin-bottom: 18px;
+}
+
+.bio-pic {
+  width: 140px;
+  height: 140px;
+}
+
+.ellipsis-container {
+  position: relative;
+  padding-right: .5em;
+}
+
+.ellipsis {
+  background: #ffffdd;
+  display: inline;
+  font-weight: normal;
+}
+
+.ellipsis:before,
+.ellipsis:after {
+  background: inherit;
+  position: absolute;
+}
+
+.ellipsis:before {
+  content: '...more >>';
+  font-weight: 600;
+  bottom: 0;
+  opacity: 1;
+  right: 0;
+  transition: .6s ease-in-out .3s;
+  visibility: visible;
+}
+
+.clamp-toggle:not( :checked ) + .ellipsis-container:hover > .ellipsis:before {
+  background: #ffffdd;
+  color: #444;
+  padding: 0 .5em;
+}
+
+:nth-child(n):nth-child(n) .clamp-toggle:checked + .ellipsis-container > .ellipsis:before {
+  background: #ffffdd;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.ellipsis:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+}
+
+.clamped {
+  overflow: hidden;
+  max-height: 100px;
+}
+
+.clamp-toggle {
+  display: none;
+}
+
+.clamp-toggle:checked + .clamped {
+  max-height: none;
+}
+
+.clamp-toggle:checked + .clamped > .ellipsis:before {
+  content: '<< less';
+}
