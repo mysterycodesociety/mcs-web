@@ -1,3 +1,28 @@
+.sponsor-levels-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.sponsor-levels-container > div {
+  flex-basis: calc(50% - 44px);
+  box-shadow: 0 0 5px rgba(19, 140, 171, 0.8);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.sponsor-levels-container h2 {
+  font-size: 1.5em;
+  background-color: #138cab;
+  color: #ffffdd;
+  padding: 10px;
+}
+
+.sponsor-levels-container p {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-bottom: 0;
+}
+
 .sponsors-container {
   display: flex;
   flex-wrap: wrap;
