@@ -32,7 +32,7 @@
 }
 
 .ellipsis:before {
-  content: '...more >>';
+  content: '...more \00BB';
   font-weight: 600;
   bottom: 0;
   opacity: 1;
@@ -74,5 +74,5 @@
 }
 
 .clamp-toggle:checked + .clamped > .ellipsis:before {
-  content: '<< less';
+  content: '\00AB less';
 }
