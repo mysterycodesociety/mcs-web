@@ -21,6 +21,7 @@ nav > li {
   padding: 10px;
 }
 nav li a {
+  font-family: 'Kavivanar', cursive;
   line-height: 20px;
   color: #ffffdd;
   padding: 5px;
