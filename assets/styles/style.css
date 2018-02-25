@@ -46,7 +46,7 @@ a.button {
   color: #14618a;
 }
 a.button:hover, a.button:focus {
-  background-color: rgb(19, 140, 171);
+  background-color: rgb(19, 140, 171); /* #138cab */
   color: #ffffdd;
   text-decoration: none;
 }
