@@ -64,12 +64,13 @@ section.main {
 .main > section {
   margin-bottom: 20px;
 }
-.main > .lead-statement {
+
+.lead-statement {
   margin: 20px;
   padding: 10px;
   text-align: center;
 }
-.main > .lead-statement > p {
+.lead-statement > p {
   padding: 0px;
 }
 
@@ -90,4 +91,10 @@ footer a.button {
 footer a.button:hover, footer a.bu:focus {
   box-shadow:  0 0 5px rgba(200, 200, 200, 0.8);
   background-color: transparent;
+}
+
+.callout-icon {
+  float: left;
+  height: 40px;
+  margin-right: 10px;
 }
