@@ -14,11 +14,14 @@
 .gwc-badge {
   color: black;
   text-align: center;
-  font-size: 10pt;
-  font-family: "Source Code Pro";
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
   width: 40px;
   height: 20px;
+  line-height: 16px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .gwc-badge:before {
   content: "";
