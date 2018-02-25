@@ -4,7 +4,7 @@
 }
 
 .bio {
-  font-family: "Open Sans Condensed";
+  font-family: "Open Sans Condensed", sans-serif;
   background-attachment: fixed;
   margin-bottom: 18px;
 }
@@ -12,6 +12,7 @@
 .bio-pic {
   width: 140px;
   height: 140px;
+  border-radius: 6px;
 }
 
 .ellipsis-container {
@@ -34,6 +35,7 @@
 .ellipsis:before {
   content: '...more \00BB';
   font-weight: 600;
+  font-style: italic;
   bottom: 0;
   opacity: 1;
   right: 0;
