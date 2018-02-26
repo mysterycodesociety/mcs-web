@@ -1,0 +1,25 @@
+.student-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.project {
+  margin-top: 30px;
+  flex-basis: 40%;
+}
+
+.project-img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  opacity: .5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.project-img:hover {
+  opacity: 1;
+}
