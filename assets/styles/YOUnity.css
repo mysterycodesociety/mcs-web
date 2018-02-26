@@ -1,5 +1,6 @@
 section.main {
   margin-bottom: 0;
+  position: relative;
 }
 
 img.flyer {
