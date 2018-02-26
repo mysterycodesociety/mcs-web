@@ -19,13 +19,12 @@ nav {
 nav > li {
   list-style-type: none;
   height: 20px;
-  padding: 10px;
 }
 nav li a {
   font-family: 'Kavivanar', cursive;
-  line-height: 20px;
+  line-height: 40px;
   color: #ffffdd;
-  padding: 5px;
+  padding: 10px;
 }
 nav li a:hover, nav li a:focus {
   color: #f7db54;
@@ -33,5 +32,42 @@ nav li a:hover, nav li a:focus {
 }
 nav li a.active {
   color: #f7db54;
-  box-shadow: none;
+}
+
+nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffdd;
+  box-shadow: 0 0 5px #154158;
+  z-index: 9;
+}
+
+nav .dropdown:hover > .dropdown-content {
+  display: block;
+  top: 40px;
+}
+
+nav .dropdown-content ul {
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav .dropdown-content li {
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+nav .dropdown-content a {
+  width: 100%;
+  color: #154158;
+  padding: 5px;
+}
+nav .dropdown-content a:hover, nav .dropdown-content a:focus {
+  background-color: #f7db54;
+  color: #154158;
 }
