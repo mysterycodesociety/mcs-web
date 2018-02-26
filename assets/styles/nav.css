@@ -12,6 +12,7 @@ nav {
   top: 0;
   width: 100%;
   background-color: #154158;
+  box-shadow: 0 0 10px #154158;
   display: flex;
   z-index: 10;
 }

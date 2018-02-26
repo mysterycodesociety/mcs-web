@@ -76,6 +76,7 @@ section.main {
 
 footer {
   background-color: #154158;
+  box-shadow: 0 0 10px #154158;
   display: flex;
   align-items: center;
   justify-content: space-around;
