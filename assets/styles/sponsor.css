@@ -10,6 +10,10 @@
   border-radius: 5px;
   margin: 20px;
 }
+.sponsor-levels-container > h3 {
+  width: 100%;
+  text-align: center;
+}
 
 .sponsor-levels-container h2 {
   font-size: 1.5em;
@@ -21,7 +25,6 @@
 
 .sponsor-levels-container p {
   font-family: "Open Sans Condensed", sans-serif;
-  padding-bottom: 0;
 }
 
 .sponsors-container {
