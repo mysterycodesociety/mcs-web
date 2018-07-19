@@ -3,6 +3,7 @@
 }
 .board img {
   width: 100%;
+  display: block;
 }
 .board p {
   position: absolute;
