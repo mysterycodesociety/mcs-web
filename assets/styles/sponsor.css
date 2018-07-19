@@ -33,7 +33,7 @@
 }
 
 .sponsors-container > div {
-  flex-basis: 33%;
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +42,10 @@
 
 .sponsors-container img {
   height: 120px;
+}
+
+.sponsors-container h2 {
+  text-align: center;
 }
 
 .sponsors-container p {
