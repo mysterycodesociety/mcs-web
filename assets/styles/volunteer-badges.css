@@ -1,11 +1,5 @@
-.badges {
-  float: right;
-}
-
 .badge-container {
-  float: left;
-  position: relative;
-  width: 40px;
+  display: flex;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 2px;
@@ -20,8 +14,6 @@
   height: 20px;
   line-height: 16px;
   position: relative;
-  display: flex;
-  justify-content: center;
 }
 .gwc-badge:before {
   content: "";
