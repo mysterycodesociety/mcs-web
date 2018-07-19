@@ -58,6 +58,7 @@ nav .dropdown-content {
 nav .dropdown:hover > .dropdown-content {
   display: block;
   top: 40px;
+  min-width: 60px;
 }
 
 nav .dropdown-content ul {
@@ -68,12 +69,14 @@ nav .dropdown-content ul {
 nav .dropdown-content li {
   list-style-type: none;
   white-space: nowrap;
+  width: 100%;
 }
 
 nav .dropdown-content a {
-  width: 100%;
+  display: block;
+  width: calc(100% - 10px);
   color: #154158;
-  padding: 5px;
+  padding: 0 5px;
 }
 nav .dropdown-content a:hover, nav .dropdown-content a:focus {
   background-color: #f7db54;
