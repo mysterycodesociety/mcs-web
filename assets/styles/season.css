@@ -1,5 +1,9 @@
-h2 span {
+h2.class-title span {
   line-height: 60px;
+}
+h2.class-apply {
+  margin: 20px 40px 40px;
+  line-height: 80px;
 }
 
 .callout-icon {
