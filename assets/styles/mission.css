@@ -1,0 +1,16 @@
+#mission {
+  position: fixed;
+  top: 39px; /* 40px fudged up so background does not even slightly show through sections */
+  transition: top 1.5s;
+  z-index: 8;
+  width: 100%;
+  background-color: #154158;
+  color: #f0f0f0;
+  font-size: 1em;
+}
+#mission > p {
+  padding: 10px 20px 20px;
+}
+section.main { /* move down pages that include #mission */
+  padding-top: 90px;
+}
