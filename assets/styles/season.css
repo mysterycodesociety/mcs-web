@@ -1,3 +1,24 @@
+h2.class-title span {
+  line-height: 60px;
+}
+h2.class-apply {
+  margin: 20px 40px 40px;
+  line-height: 80px;
+}
+
+.callout-icon {
+  float: none;
+  display: none;
+  transform: scale(-1, 1);
+}
+.class-container:hover .callout-icon {
+  display: inline;
+}
+
 h3.class-desc {
   padding: 10px;
+}
+
+hr {
+  margin-bottom: 20px;
 }
