@@ -4,7 +4,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     // 40px fudged up so background does not even slightly show through sections
     document.getElementById("mission").style.top = "39px";
-  } else {
+  } else if (currentScrollPos > 40) {
     document.getElementById("mission").style.top = "-70px";
   }
   prevScrollpos = currentScrollPos;
