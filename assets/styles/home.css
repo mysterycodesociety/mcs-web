@@ -6,7 +6,7 @@
   background-image: url(../images/vintage-book-muted.jpg);
   background-size: cover;
   background-position-y: center;
-  padding: 50px;
+  padding: 90px 50px 50px;
 }
 .headline img {
   height: calc(100vh - 100px);
@@ -22,9 +22,9 @@
   border-radius: 5px;
 }
 
-.about, .mission {
+.about {
   margin: 50px;
 }
-.about, .mission p {
+.about {
   font-size: 1.2em;
 }

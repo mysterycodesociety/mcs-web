@@ -1,5 +1,6 @@
 #footprint {
   position: absolute;
+  z-index: 7;
   height: 60px;
   margin: 10px;
   top: -80px;
