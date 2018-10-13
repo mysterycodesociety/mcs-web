@@ -1,0 +1,28 @@
+section.main {
+  margin-bottom: 0;
+  position: relative;
+}
+
+img.flyer {
+  width: calc(100% + 100px);
+  margin: 0 -50px;
+}
+
+.course-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-detail {
+  padding-bottom: 10px;
+}
+.course-detail > p {
+  padding: 10px;
+}
+
+.week {
+  margin: 40px;
+  padding: 20px;
+  border: 2px dashed #154158;
+}
