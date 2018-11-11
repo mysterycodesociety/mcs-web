@@ -4,14 +4,12 @@ section.main {
 }
 
 img.flyer {
-  width: calc(100% + 100px);
-  margin: 0 -50px;
+  display: block;
+  width: 100%;
 }
 
-.course-items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.course-items > * {
+  text-align: center;
 }
 
 .course-detail {
@@ -25,4 +23,5 @@ img.flyer {
   margin: 40px;
   padding: 20px;
   border: 2px dashed #154158;
+  overflow: hidden;
 }
