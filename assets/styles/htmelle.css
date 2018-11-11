@@ -8,10 +8,8 @@ img.flyer {
   width: 100%;
 }
 
-.course-items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.course-items > * {
+  text-align: center;
 }
 
 .course-detail {
