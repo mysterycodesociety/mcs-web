@@ -3,9 +3,11 @@ section.main {
   position: relative;
 }
 
-img.flyer {
+img.flyer{
   display: block;
-  width: 100%;
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .course-items > * {
