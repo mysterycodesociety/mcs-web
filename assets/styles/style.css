@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Kavivanar|Merriweather:300,300i,400,400i,700,700i,900,900i|Source+Code+Pro:200,300,400,500,600,700,900|Open+Sans+Condensed:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Merriweather:300,300i,400,400i,700,700i,900,900i|Source+Code+Pro:200,300,400,500,600,700,900|Open+Sans+Condensed:300,300i,700');
+
+:root {
+  --main-bg-color: #FFFBE7;
+  --main-txt-color: #0476A3;
+  --main-txt-color-dark: #026494;
+  --bg-highlight-color: #FFF5C2;
+  --secondary-bg-color: #0476A3;
+  --secondary-txt-color: #ffffff;
+  --main-font: 'Merriweather', serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --box-shadow-color: rgba(19, 140, 171, 0.8);
+  --secondary-box-shadow-color: rgba(241, 241, 241, 0.8);
+}
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: var(--main-font, 'Merriweather', serif);
   font-size: 16px;
-  background-color: #ffffee;
-  color: #154158;
+  background-color: var(--main-bg-color, #FFFBE7);
+  color: var(--main-txt-color, #0476A3);
 }
 
 h1 {
@@ -14,7 +27,7 @@ h2 {
   font-size: 2em;
 }
 h1, h2, h4 {
-  font-family: 'Kavivanar', cursive;
+  font-family: var(--secondary-font, 'Roboto', sans-serif);
 }
 
 p {
@@ -27,27 +40,27 @@ ul {
 
 a {
   /* color: #e12a20; red, feels like too much */
-  color: #00809d;
+  color: var(--main-txt-color, #0476A3);
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #e12a20;
+  color: var(--main-txt-color-dark, #026494);
   text-decoration-line: underline;
   text-decoration-style: dashed;
   text-decoration-skip-ink: none;
 }
 
 a.button {
-  box-shadow: 0 0 5px rgba(19, 140, 171, 0.8);
+  box-shadow: 0 0 5px var(--box-shadow-color, rgba(19, 140, 171, 0.8));
   border-radius: 5px;
   text-decoration: none;
-  font-family: 'Kavivanar', cursive;
+  font-family: var(--secondary-font, 'Roboto', sans-serif);
   padding: 20px;
-  color: #14618a;
+  color: var(--main-txt-color, #0476A3);
 }
 a.button:hover, a.button:focus {
-  background-color: rgb(19, 140, 171); /* #138cab */
-  color: #ffffdd;
+  background-color: var(--secondary-bg-color, #0476A3);
+  color: var(--secondary-txt-color, #ffffff);
   text-decoration: none;
 }
 
@@ -75,8 +88,8 @@ section.main {
 }
 
 footer {
-  background-color: #154158;
-  color: #ffffdd;
+  background-color: var(--secondary-bg-color, #0476A3);
+  color: var(--secondary-txt-color, #ffffff);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -84,13 +97,13 @@ footer {
   height: 40px;
 }
 footer a.button {
-  color: #ffffdd;
+  color: var(--secondary-txt-color, #ffffff);
   box-shadow: none;
   padding: 10px;
   line-height: 20px;
 }
 footer a.button:hover, footer a.bu:focus {
-  box-shadow:  0 0 5px rgba(200, 200, 200, 0.8);
+  box-shadow:  0 0 5px var(--secondary-background-color, rgba(200, 200, 200, 0.8));
   background-color: transparent;
 }
 

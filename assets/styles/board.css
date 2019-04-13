@@ -10,8 +10,8 @@
   top: 0;
   right: 0;
   padding: 10px;
-  background-color: rgba(200, 200, 200, 0.8);
-  box-shadow: 0 5px 5px rgba(200, 200, 200, 0.8);
+  background-color: var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));
+  box-shadow: 0 5px 5px var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));
   border-radius: 0 0 0 5px;
   font-size: 1.2em;
 }

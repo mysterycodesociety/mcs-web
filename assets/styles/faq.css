@@ -1,17 +1,18 @@
 .faq-container > div {
-  box-shadow: 0 0 5px rgba(19, 140, 171, 0.8);
+  box-shadow: 0 0 5px var(--box-shadow-color, rgba(19, 140, 171, 0.8));
   border-radius: 5px;
   margin: 20px;
 }
 
 .faq-container h2 {
   font-size: 1.5em;
-  background-color: #138cab;
-  box-shadow: 0 0 5px rgba(19, 140, 171, 0.8);
-  color: #ffffdd;
+  background-color: var(--secondary-bg-color, #0476A3);
+  box-shadow: 0 0 5px var(--box-shadow-color, rgba(19, 140, 171, 0.8));
+  color: var(--secondary-txt-color, #ffffff);
   padding: 10px;
 }
 
 .faq-container p {
   font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.2em;
 }

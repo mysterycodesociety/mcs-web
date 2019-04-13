@@ -17,8 +17,8 @@
   white-space: nowrap;
   align-self: center;
   padding: 10px 20px;
-  background-color: rgba(200, 200, 200, 0.8);
-  box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
+  background-color: var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));
+  box-shadow: 0 0 5px var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));
   border-radius: 5px;
 }
 
