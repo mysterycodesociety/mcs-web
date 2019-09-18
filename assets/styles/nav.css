@@ -22,7 +22,7 @@ nav > li {
   height: 20px;
 }
 nav li a {
-  font-family: var(--secondary-font, 'Roboto', sans-serif);
+  font-family: var(--secondary-font);
   line-height: 40px;
   color: var(--secondary-txt-color, #ffffff);
   padding: 10px;

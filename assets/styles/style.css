@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: var(--main-font, 'Merriweather', serif);
+  font-family: var(--main-font);
   font-size: 16px;
   background-color: var(--main-bg-color, #FFFBE7);
   color: var(--main-txt-color, #0476A3);
@@ -27,7 +27,7 @@ h2 {
   font-size: 2em;
 }
 h1, h2, h4 {
-  font-family: var(--secondary-font, 'Roboto', sans-serif);
+  font-family: var(--secondary-font);
 }
 
 p {
@@ -54,7 +54,7 @@ a.button {
   box-shadow: 0 0 5px var(--box-shadow-color, rgba(19, 140, 171, 0.8));
   border-radius: 5px;
   text-decoration: none;
-  font-family: var(--secondary-font, 'Roboto', sans-serif);
+  font-family: var(--secondary-font);
   padding: 20px;
   color: var(--main-txt-color, #0476A3);
 }
