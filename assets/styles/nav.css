@@ -11,8 +11,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #154158;
-  box-shadow: 0 0 10px #154158;
+  background-color: var(--secondary-bg-color, #0476A3);
+  box-shadow: 0 0 10px var(--secondary-bg-color, #0476A3);
   display: flex;
   flex-wrap: wrap;
   z-index: 10;
@@ -22,17 +22,17 @@ nav > li {
   height: 20px;
 }
 nav li a {
-  font-family: 'Kavivanar', cursive;
+  font-family: var(--secondary-font);
   line-height: 40px;
-  color: #ffffdd;
+  color: var(--secondary-txt-color, #ffffff);
   padding: 10px;
 }
 nav li a:hover, nav li a:focus {
-  color: #f7db54;
+  color: var(--bg-highlight-color, #FFF5C2);
   text-decoration: none;
 }
 nav li a.active {
-  color: #f7db54;
+  color: var(--bg-highlight-color, #FFF5C2);
 }
 
 nav .dropdown {
@@ -43,8 +43,8 @@ nav .dropdown {
 nav .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffdd;
-  box-shadow: 0 0 5px #154158;
+  background-color: var(--main-bg-color, #FFFBE7);
+  box-shadow: 0 0 5px var(--secondary-bg-color, #0476A3);
   z-index: 9;
 }
 
@@ -68,10 +68,10 @@ nav .dropdown-content li {
 nav .dropdown-content a {
   display: block;
   width: calc(100% - 10px);
-  color: #154158;
+  color: var(--main-txt-color, #0476A3);
   padding: 0 5px;
 }
 nav .dropdown-content a:hover, nav .dropdown-content a:focus {
-  background-color: #f7db54;
-  color: #154158;
+  background-color: var(--bg-highlight-color, #FFF5C2);
+  color: var(--main-txt-color, #0476A3);
 }

@@ -24,6 +24,6 @@ img.flyer{
 .week {
   margin: 40px;
   padding: 20px;
-  border: 2px dashed #154158;
+  border: 2px dashed var(--main-txt-color, #0476A3);
   overflow: hidden;
 }
