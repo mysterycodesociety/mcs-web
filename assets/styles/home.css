@@ -1,6 +1,11 @@
+@media only screen and (min-width: 800px) {
+  .name {
+    margin: 4rem auto 0;
+  }
+}
+
 .name {
   max-width: 70rem;
-  margin: 4rem auto 0;
 }
 
 .headline {

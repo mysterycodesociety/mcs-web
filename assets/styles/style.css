@@ -76,7 +76,6 @@ section.main {
 .main > h1 {
   width: 100%;
   text-align: center;
-  white-space: nowrap;
 }
 
 .main > section {
