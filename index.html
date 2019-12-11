@@ -7,7 +7,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
     gtag('config', 'UA-126220789-1');
   </script>
 
@@ -32,7 +31,7 @@
   <meta name="msapplication-square150x150logo" content="assets/images/mcs-favicons/mstile-150x150.png" />
   <meta name="msapplication-wide310x150logo" content="assets/images/mcs-favicons/mstile-310x150.png" />
   <meta name="msapplication-square310x310logo" content="assets/images/mcs-favicons/mstile-310x310.png" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- stylesheets -->
   <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/fontello/css/fontello.css">
@@ -44,10 +43,9 @@
   <link rel="stylesheet" type="text/css" href="assets/styles/nav.css">
   <script type="text/javascript" src="assets/scripts/mission.js"></script>
   <script type="text/javascript" src="assets/scripts/footprint.js"></script>
-<title>Mystery Code Society</title>
+  <title>Mystery Code Society</title>
 </head>
 <body>
-  
   <nav>
     <li>
       <div class="dropdown">
@@ -83,13 +81,21 @@
         </div>
       </div>
     </li>
+    <li>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="4C6KVF6J4TK5Q" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+    </li>
   </nav>
-  
-  <section class="name">
-    <section id="mission">
-      <p>Our Mission: To champion gender equity in tech through beginner and intermediate coding education for women, femmes, and non-men</p>
-    </section>
 
+  <section id="mission">
+    <p>Our Mission: To champion gender equity in tech through beginner and intermediate coding education for women, femmes, and non-men</p>
+  </section>
+
+  <section class="name">
     <div class="headline">
       <img id="footprint" src="assets/images/footprint.png" alt="" aria-hidden="true">
       <img src="assets/images/female-detective-binarymcs-padding.png" alt="logo">
@@ -115,10 +121,10 @@
     </div>
 
     <div class="board">
-      <img src="assets/images/board-members.jpg" alt="board members">
       <p>
-      Our board members are Rachel Fox, Wendy Holley, Shannon Jackson, Eris Koleszar, Stefanie Monge, Laurel Oetken, Jessica Selde, and Morgan Smith.
+        Our board members are Rachel Fox, Wendy Holley, Shannon Jackson, Eris Koleszar, Stefanie Monge, Laurel Oetken, Jessica Selde, and Morgan Smith.
       </p>
+      <img src="assets/images/board-members.jpg" alt="board members">
     </div>
   </section>
 

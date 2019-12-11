@@ -1,14 +1,8 @@
-.board {
-  position: relative;
-}
 .board img {
   width: 100%;
   display: block;
 }
 .board p {
-  position: absolute;
-  top: 0;
-  right: 0;
   padding: 10px;
   background-color: var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));
   box-shadow: 0 5px 5px var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));

@@ -71,7 +71,6 @@ a.button:hover, a.button:focus {
 section.main {
   padding-top: 40px;/* for nav */
   margin: 40px;
-  min-height: calc(100vh - (100px + 140px + 100px));
 }
 
 .main > h1 {
@@ -98,10 +97,11 @@ footer {
   background-color: var(--secondary-bg-color, #0476A3);
   color: var(--secondary-txt-color, #ffffff);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   padding: 40px;
-  height: 40px;
+  min-height: 40px;
   position: relative;
   bottom: 0;
   width: auto;
