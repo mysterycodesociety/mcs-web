@@ -10,6 +10,7 @@
   border-radius: 5px;
   margin: 20px;
 }
+
 .sponsor-levels-container > h3 {
   width: 100%;
   text-align: center;
@@ -53,4 +54,10 @@
 .sponsors-container p {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.2em;
+}
+
+@media only screen and (max-width: 800px) {
+  .sponsor-levels-container > div, .sponsors-container > div {
+    flex-basis: calc(100% - 44px);
+  }
 }
