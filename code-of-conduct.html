@@ -7,9 +7,11 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
+
     gtag('config', 'UA-126220789-1');
   </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- Favicons -->
   <link rel="icon" type="image/png" href="assets/images/mcs-favicons/favicon-196x196.png" sizes="196x196" />
   <link rel="icon" type="image/png" href="assets/images/mcs-favicons/favicon-96x96.png" sizes="96x96" />
@@ -23,27 +25,28 @@
   <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/coc.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/nav.css">
-<title>Code of Conduct</title>
+  <title>Code of Conduct</title>
 </head>
 <body>
   <nav>
     <li>
       <div class="dropdown">
-        <a href="index.html">Mission</a>
+        <a class="active" href="#">Mission</a>
         <div class="dropdown-content">
           <ul>
-            <li><a href="mission-faq.html">FAQ</a></li>
+            <li><a href="index.html#mission">Mission</a></li>
+            <li><a href="mission-faq.html">Mission FAQ</a></li>
           </ul>
         </div>
       </div>
     </li>
     <li>
       <div class="dropdown">
-        <a href="2019-2020_season.html">Students</a>
+        <a href="#">Students</a>
         <div class="dropdown-content">
           <ul>
             <li><a href="2019-2020_season.html">2019-2020 Calendar</a></li>
-            <li><a href="intro-to-javascript.html">Intro to JavaScript</a></li>
+            <li><a href="js-games.html">Sugar Cubed JavaScript Games</a></li>
             <li><a href="student-projects.html">Student Projects</a></li>
           </ul>
         </div>
@@ -53,13 +56,25 @@
     <li><a href="sponsor.html">Sponsors</a></li>
     <li>
       <div class="dropdown">
-        <a class="active" href="code-of-conduct.html">Code of Conduct</a>
+        <a href="#" class="active">Code of Conduct</a>
         <div class="dropdown-content">
           <ul>
+            <li><a href="code-of-conduct.html">Volunteer Code of Conduct</a></li>
             <li><a href="classroom-guidelines.html">Classroom Guidelines</a></li>
           </ul>
         </div>
       </div>
+    </li>
+    <li>
+      <li><a href="mailing-list-signup.html">Mailing List</a></li>
+    </li>
+    <li>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="4C6KVF6J4TK5Q" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+      </form>
     </li>
   </nav>
 

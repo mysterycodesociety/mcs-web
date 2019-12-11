@@ -18,6 +18,7 @@ body {
   font-size: 16px;
   background-color: var(--main-bg-color, #FFFBE7);
   color: var(--main-txt-color, #0476A3);
+  min-height: 100vh;
 }
 
 h1 {
@@ -53,7 +54,7 @@ a:hover, a:focus {
   text-decoration-skip-ink: none;
 }
 
-a.button {
+a.button, .btn-primary {
   box-shadow: 0 0 5px var(--box-shadow-color, rgba(19, 140, 171, 0.8));
   border-radius: 5px;
   text-decoration: none;
@@ -62,7 +63,7 @@ a.button {
   color: var(--main-txt-color, #0476A3);
 }
 
-a.button:hover, a.button:focus {
+a.button:hover, a.button:focus, .btn-primary:hover, .btn-primary:focus {
   background-color: var(--secondary-bg-color, #0476A3);
   color: var(--secondary-txt-color, #ffffff);
   text-decoration: none;
@@ -71,13 +72,11 @@ a.button:hover, a.button:focus {
 section.main {
   padding-top: 40px;/* for nav */
   margin: 40px;
-  min-height: calc(100vh - (100px + 140px + 100px));
 }
 
 .main > h1 {
   width: 100%;
   text-align: center;
-  white-space: nowrap;
 }
 
 .main > section {
@@ -98,10 +97,11 @@ footer {
   background-color: var(--secondary-bg-color, #0476A3);
   color: var(--secondary-txt-color, #ffffff);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   padding: 40px;
-  height: 40px;
+  min-height: 40px;
   position: relative;
   bottom: 0;
   width: auto;

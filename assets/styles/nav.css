@@ -1,6 +1,18 @@
+@media only screen and (min-width: 800px) {
+  nav {
+    position: fixed;
+  }
+}
+@media only screen and (max-width: 800px) {
+  nav:after { /* doubles nav height for mobile */
+    content: "";
+    height: 35px;
+    width: 100%;
+  }
+}
 nav:before {
   content: "";
-  height: 30px;
+  height: 35px;
   min-width: 40px;
   background-image: url("../images/red-hat-sunglasses.png");
   background-size: cover;
@@ -8,7 +20,6 @@ nav:before {
 }
 nav {
   list-style-type: none;
-  position: fixed;
   top: 0;
   width: 100%;
   background-color: var(--secondary-bg-color, #0476A3);
@@ -33,6 +44,10 @@ nav li a:hover, nav li a:focus {
 }
 nav li a.active {
   color: var(--bg-highlight-color, #FFF5C2);
+}
+
+nav li form {
+  padding: 10px;
 }
 
 nav .dropdown {

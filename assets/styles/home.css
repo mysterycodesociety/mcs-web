@@ -1,6 +1,17 @@
+@media only screen and (min-width: 800px) {
+  .name {
+    margin: 4rem auto 0;
+  }
+}
+
+.name {
+  max-width: 70rem;
+}
+
 .headline {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
   justify-content: center;
   /* placeholder from https://www.flickr.com/photos/122127718@N08/26495328891/ */
   background-image: url(../images/vintage-book-muted.jpg);
@@ -9,17 +20,19 @@
   padding: 90px 50px 50px;
 }
 .headline img {
-  height: calc(100vh - 100px);
+  /*height: calc(100vh - 100px);*/
+  max-width: 100%;
 }
 .headline .title {
-  margin-top: 10%;
-  margin-left: -30%;
+  max-width: 100%;
   white-space: nowrap;
   align-self: center;
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
   background-color: var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));
   box-shadow: 0 0 5px var(--secondary-box-shadow-color, rgba(241, 241, 241, 0.8));
   border-radius: 5px;
+  white-space: pre-wrap;
+  text-align: center;
 }
 
 .about {
