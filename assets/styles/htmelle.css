@@ -1,29 +1,18 @@
 section.main {
-  margin-bottom: 0;
+
   position: relative;
 }
 
-img.flyer{
+img {
   display: block;
   max-width: 750px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .course-items > * {
   text-align: center;
 }
 
-.course-detail {
-  padding-bottom: 10px;
-}
-.course-detail > p {
-  padding: 10px;
-}
-
-.week {
-  margin: 40px;
-  padding: 20px;
-  border: 2px dashed var(--main-txt-color, #0476A3);
-  overflow: hidden;
-}
