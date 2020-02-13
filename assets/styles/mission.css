@@ -6,6 +6,7 @@
 
 #mission {
   top: 39px; /* 40px fudged up so background does not even slightly show through sections */
+  left: 0;
   transition: top 1.5s;
   z-index: 8;
   width: 100%;
@@ -17,6 +18,6 @@
 #mission > p {
   padding: 10px 20px 20px;
 }
-section.main { /* move down pages that include #mission */
+.mission-page-main { /* move down pages that include #mission */
   padding-top: 90px;
 }
