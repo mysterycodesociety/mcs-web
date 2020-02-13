@@ -1,0 +1,23 @@
+{
+  "name": "mcs-web",
+  "version": "1.0.0",
+  "description": "organization website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysterycodesociety/mcs-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mysterycodesociety/mcs-web/issues"
+  },
+  "homepage": "https://github.com/mysterycodesociety/mcs-web#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "liquid": "^4.0.0"
+  }
+}

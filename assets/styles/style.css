@@ -41,32 +41,13 @@ ul {
   padding: 10px 40px;
 }
 
-a {
-  /* color: #e12a20; red, feels like too much */
-  color: var(--main-txt-color, #0476A3);
-  text-decoration: none;
-}
-
-a:hover, a:focus {
-  color: var(--main-txt-color-dark, #026494);
-  text-decoration-line: underline;
-  text-decoration-style: dashed;
-  text-decoration-skip-ink: none;
-}
-
-a.button, .btn-primary {
-  box-shadow: 0 0 5px var(--box-shadow-color, rgba(19, 140, 171, 0.8));
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: var(--secondary-font);
-  padding: 20px;
-  color: var(--main-txt-color, #0476A3);
-}
-
-a.button:hover, a.button:focus, .btn-primary:hover, .btn-primary:focus {
-  background-color: var(--secondary-bg-color, #0476A3);
-  color: var(--secondary-txt-color, #ffffff);
-  text-decoration: none;
+img {
+  display: block;
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 section.main {
@@ -83,6 +64,10 @@ section.main {
   margin-bottom: 20px;
 }
 
+.center-align {
+  text-align: center;
+}
+
 .lead-statement {
   margin: 20px;
   padding: 10px;
@@ -91,34 +76,6 @@ section.main {
 
 .lead-statement > p {
   padding: 0px;
-}
-
-footer {
-  background-color: var(--secondary-bg-color, #0476A3);
-  color: var(--secondary-txt-color, #ffffff);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  padding: 40px;
-  min-height: 40px;
-  position: relative;
-  bottom: 0;
-  width: auto;
-  left: 0;
-  right: 0;
-}
-
-footer a.button {
-  color: var(--secondary-txt-color, #ffffff);
-  box-shadow: none;
-  padding: 10px;
-  line-height: 20px;
-}
-
-footer a.button:hover, footer a.bu:focus {
-  box-shadow:  0 0 5px var(--secondary-background-color, rgba(200, 200, 200, 0.8));
-  background-color: transparent;
 }
 
 .callout-icon {
