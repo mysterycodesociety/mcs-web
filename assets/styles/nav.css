@@ -10,14 +10,6 @@
     width: 100%;
   }
 }
-nav:before {
-  content: "";
-  height: 35px;
-  min-width: 40px;
-  background-image: url("../images/red-hat-sunglasses.png");
-  background-size: cover;
-  margin: 5px;
-}
 nav {
   list-style-type: none;
   top: 0;
@@ -89,4 +81,10 @@ nav .dropdown-content a {
 nav .dropdown-content a:hover, nav .dropdown-content a:focus {
   background-color: var(--bg-highlight-color, #FFF5C2);
   color: var(--main-txt-color, #0476A3);
+}
+
+nav .red-hat-icon {
+  height: 35px;
+  margin: 5px;
+  min-width: 40px;
 }
