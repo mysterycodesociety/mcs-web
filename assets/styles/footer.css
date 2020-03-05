@@ -5,13 +5,17 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  padding: 40px;
-  min-height: 40px;
+  padding: 0 40px;
+  height: 130px;
   position: relative;
   bottom: 0;
   width: auto;
   left: 0;
   right: 0;
+}
+
+footer form img {
+  display: none;
 }
 
 footer a.button {

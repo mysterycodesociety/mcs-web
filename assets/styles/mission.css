@@ -17,6 +17,6 @@
 #mission > p {
   padding: 10px 20px 20px;
 }
-section.main { /* move down pages that include #mission */
+.mission-page-main { /* move down pages that include #mission */
   padding-top: 90px;
 }

@@ -3,7 +3,6 @@ module.exports = function(eleventyConfig) {
   // Add layout names here to enable referencing them by just their file name
   // instead of the entire path
   eleventyConfig.addLayoutAlias('default', `layouts/default.liquid`);
-  // eleventyConfig.addLayoutAlias('mission-faq', `layouts/mission-faq.liquid`);
 
   // Passthrough copy
   // Just copy this content into the _site directory
