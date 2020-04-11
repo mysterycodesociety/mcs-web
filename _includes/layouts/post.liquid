@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>{{title}}</title>
+    {% include head.liquid %}
+  </head>
+  <body>
+    {% include nav.liquid %}
+
+    <main>
+      <article>
+        <h1>{{ title }}</h1>
+        <p>
+          <small>
+            <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
+          </small>
+        </p>
+
+        {{ content }}
+
+
+        {% if tags %}
+          <p>
+
+            {% for tag in tags %}
+              {% if tag != "post" %}
+                {% capture tagUrl %}/tags/{{ tag }}{% endcapture %}
+                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+              {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+      </article>
+    </main>
+
+    {% include footer.liquid %}
+  </body>
+</html>

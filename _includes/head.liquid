@@ -6,6 +6,17 @@
   gtag('js', new Date());
   gtag('config', 'UA-126220789-1');
 </script>
+<script>
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", user => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+      });
+    }
+  });
+}
+</script>
 
 <!-- favicons -->
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/images/mcs-favicons/apple-touch-icon-57x57.png" />
