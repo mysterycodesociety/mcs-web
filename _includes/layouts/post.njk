@@ -2,10 +2,10 @@
 <html lang="en-US">
   <head>
     <title>{{title}}</title>
-    {% include head.liquid %}
+    {% include "head.liquid" %}
   </head>
   <body>
-    {% include nav.liquid %}
+    {% include "nav.njk" %}
 
     <main>
       <article>
@@ -16,23 +16,23 @@
           </small>
         </p>
 
-        {{ content }}
+        {{ content | safe }}
+
 
 
         {% if tags %}
           <p>
-
-            {% for tag in tags %}
-              {% if tag != "post" %}
-                {% capture tagUrl %}/tags/{{ tag }}{% endcapture %}
-                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-              {% endif %}
-            {% endfor %}
+          {% for tag in tags %}
+            {%- if tag != "post" -%}
+              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+            {%- endif -%}
+          {% endfor %}
           </p>
         {% endif %}
       </article>
     </main>
 
-    {% include footer.liquid %}
+    {% include "footer.liquid" %}
   </body>
 </html>

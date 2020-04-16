@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
   // layout: post. If you don’t want to rewrite all of those values, just map
   // post to a new file like this:
   // eleventyConfig.addLayoutAlias("post", "layouts/my_new_post_layout.njk");
-  eleventyConfig.addLayoutAlias('default', `layouts/default.liquid`);
+  eleventyConfig.addLayoutAlias('default', `layouts/default.njk`);
 
   // Merge data instead of overriding
   // https://www.11ty.dev/docs/data-deep-merge/
@@ -30,7 +30,11 @@ module.exports = function(eleventyConfig) {
 
 
   eleventyConfig.addCollection("posts", function(collection){
-    return collection.getFilteredByGlob(["posts/*md"]);
+    return collection.getFilteredByGlob(["posts/*"]);
+  });
+
+  eleventyConfig.addCollection("pages", function(collection){
+    return collection.getFilteredByGlob(["pages/*md", "pages/*liquid"]);
   });
 
   // Universal slug filter strips unsafe chars from URLs
@@ -64,7 +68,7 @@ module.exports = function(eleventyConfig) {
   );
 
   return {
-    templateFormats: ["md", "html", "liquid"],
+    templateFormats: ["md", "html", "liquid", "njk"],
 
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
@@ -74,7 +78,7 @@ module.exports = function(eleventyConfig) {
 
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",
-    dataTemplateEngine: "liquid",
+    dataTemplateEngine: "njk",
     dir: {
       input: ".",
       includes: "_includes",

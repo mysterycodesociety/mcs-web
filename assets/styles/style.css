@@ -16,6 +16,7 @@
 body {
   font-family: var(--main-font);
   font-size: 16px;
+  position: relative;
   background-color: var(--main-bg-color, #FFFBE7);
   color: var(--main-txt-color, #0476A3);
   min-height: 100vh;
@@ -43,16 +44,17 @@ ul {
 
 img {
   display: block;
-  max-width: 750px;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-section.main {
-  padding-top: 40px;/* for nav */
-  margin: 40px;
+main {
+  margin: 0 40px;
+  padding-top: 80px;/* 40px for nav + 40 margin */
+  padding-bottom: 130px; /* 130px for footer */
 }
 
 .main > h1 {

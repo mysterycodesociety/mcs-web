@@ -1,26 +1,23 @@
 ---
 title: This is my first post
-summary: Why contemplating our mortality can be a powerful catalyst for change
-date: 2015-01-01
+summary: Why it should be my first post
+date: 2020-04-15
 tags:
   - tech
   - environment
   - politics
   - sport
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Isn't that fantastic? Tree trunks grow however makes them happy. We don't need any guidelines or formats. All we need to do is just let it flow right out of us. For the lack of a better word I call them hangy downs.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+In painting, you have unlimited power. You have the ability to move mountains. The shadows are just like the highlights, but we're going in the opposite direction. We'll make some happy little bushes here.
 
-## Section Header
+It's all a game of angles. Be brave. It looks so good, I might as well not stop. Little trees and bushes grow however makes them happy.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+Nothing wrong with washing your brush. Almost everything is going to happen for you automatically - you don't have to spend any time working or worrying. Very easy to work these to death. These trees are so much fun. I get started on them and I have a hard time stopping. There we go. Let's give him a friend too. Everybody needs a friend.
 
-``` text/2-3
-// this is a command
-function myCommand() {
-  let counter = 0;
-  counter++;
-}
-```
-Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Let's build some happy little clouds up here. The only thing worse than yellow snow is green snow. Anyone can paint. A tree cannot be straight if it has a crooked trunk. Just let go - and fall like a little waterfall. It all happens automatically.
+
+We don't have to be concerned about it. We just have to let it fall where it will. But we're not there yet, so we don't need to worry about it. When things happen - enjoy them. They're little gifts.
+
+We'll have a super time. You can bend rivers. But when I get home, the only thing I have power over is the garbage. I'll go over the colors one more time that we use: Titanium white, Thalo green, Prussian blue, Van Dyke brown, Alizarin crimson, Sap green, Cad yellow, and Permanent red. Now it's beginning to make a little sense. That's a son of a gun of a cloud.

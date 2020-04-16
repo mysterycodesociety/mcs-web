@@ -1,5 +1,5 @@
 {
-  "layout": "layouts/post.liquid",
+  "layout": "layouts/post.njk",
   "permalink": "posts/{{ title | slug }}/index.html",
   "tags": [
     "post"

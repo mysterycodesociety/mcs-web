@@ -1,6 +1,5 @@
 <section>
-    {% assign postslist = collections.posts %}
-    {% for post in postslist %}
+    {% for post in collections.posts %}
       <article{% if post.url == url %} data-current="current item"{% endif %}>
         <h3>
           <a href="{{ post.url | url }}">
@@ -21,16 +20,6 @@
             <small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
           </time>
         </p>
-        {% if post.data.tags %}
-          <p>
-            {% for tag in post.data.tags %}
-              {% if tag != "post" %}
-                {% capture tagUrl %}/tags/{{ tag }}{% endcapture %}
-                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-              {% endif %}
-            {% endfor %}
-          </p>
-        {% endif %}
       </article>
     {% endfor %}
 </section>

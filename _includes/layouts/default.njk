@@ -2,15 +2,15 @@
 <html lang="en-US">
   <head>
     <title>{{title}}</title>
-    {% include head.liquid %}
+    {% include "head.liquid" %}
   </head>
   <body>
-    {% include nav.liquid %}
+    {% include "nav.njk" %}
 
     <main>
-      {{ content }}
+      {{ content | safe }}
     </main>
 
-    {% include footer.liquid %}
+    {% include "footer.liquid" %}
   </body>
 </html>
