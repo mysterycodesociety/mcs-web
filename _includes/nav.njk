@@ -1,53 +1,16 @@
-<nav>
-  <a href="/">
-    <img class="red-hat-icon" src="/assets/images/red-hat-sunglasses.png">
-  </a>
-  <li><a href="/mission-faq/">Mission</a></li>
-  <li>
-    <div class="dropdown">
-      <a href="#">Students</a>
-      <div class="dropdown-content">
-        <ul>
-          <li><a href="/2019-2020_season/">2019-2020 Calendar</a></li>
-          <li><a href="/htmelle/">HTMelle</a></li>
-          <li><a href="/js-games/">Sugar Cubed JavaScript Games</a></li>
-          <li><a href="/student-projects/">Student Projects</a></li>
-        </ul>
-      </div>
-    </div>
-  </li>
-  <li><a href="/volunteer/">Volunteers</a></li>
-  <li><a href="/sponsor/">Sponsors</a></li>
-  <li>
-    <div class="dropdown">
-      <a href="#">Code of Conduct</a>
-      <div class="dropdown-content">
-        <ul>
-          <li><a href="/code-of-conduct/">Volunteer Code of Conduct</a></li>
-          <li><a href="/classroom-guidelines/">Classroom Guidelines</a></li>
-        </ul>
-      </div>
-    </div>
-  </li>
-  <li><a href="/mailing-list-signup/">Mailing List</a></li>
-  <li>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick" />
-      <input type="hidden" name="hosted_button_id" value="4C6KVF6J4TK5Q" />
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-      <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-    </form>
-  </li>
-
-</nav>
-
-<nav>
-  {% set navPages = collections.all | eleventyNavigation %}
-  <ul>
-  {%- for entry in navPages %}
-    <li>
-      <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-    </li>
-  {%- endfor %}
-  </ul>
-</nav>
+<header>
+    <nav>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
+            listElement: "ul",
+            listItemElement: "li",
+            listClass: "",
+            listItemClass: "",
+            listItemHasChildrenClass: "dropdown",
+            listItemHasParentClass: "dropdown-content",
+            activeListItemClass: "",
+            activeAnchorClass: "active",
+            activeKey: eleventyNavigation.key,
+            showExcerpt: false
+        }) | safe }}
+    </nav>
+</header>

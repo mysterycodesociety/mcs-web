@@ -42,6 +42,10 @@ ul {
   padding: 10px 40px;
 }
 
+nav ul {
+  padding: unset;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -49,6 +53,13 @@ img {
   margin-left: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* Paypal form */
+form img[width="1"] {
+  width: 1px;
+  height: 1px;
+  margin: 0;
 }
 
 main {
