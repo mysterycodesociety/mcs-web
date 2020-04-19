@@ -9,7 +9,7 @@ media_folder: "assets/blog/images" # Media files will be stored in the repo unde
 
 collections:
   # Our blog posts
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+  - name: "posts" # Used in routes, e.g., /admin/collections/posts
     label: "Post" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
