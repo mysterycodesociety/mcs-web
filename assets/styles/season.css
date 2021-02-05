@@ -1,20 +1,28 @@
 h2.class-title span {
   line-height: 60px;
 }
+
 h2.class-apply, h2.class-volunteer {
   margin: 20px 40px 40px;
   line-height: 80px;
 }
+
 .or-text {
   margin: 20px 0 40px 40px;
   align-self: flex-end;
 }
 
+.class-title {
+  display: flex;
+}
+
 .callout-icon {
-  float: none;
   display: none;
   transform: scale(-1, 1);
+  margin: 10px;
+  align-self: flex-end;
 }
+
 .class-container:hover .callout-icon {
   display: inline;
 }

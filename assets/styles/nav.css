@@ -10,15 +10,11 @@
     width: 100%;
   }
 }
-nav:before {
-  content: "";
-  height: 35px;
-  min-width: 40px;
-  background-image: url("../images/red-hat-sunglasses.png");
-  background-size: cover;
-  margin: 5px;
-}
 nav {
+  width: 100%;
+  z-index: 10;
+}
+nav ul {
   list-style-type: none;
   top: 0;
   width: 100%;
@@ -26,7 +22,7 @@ nav {
   box-shadow: 0 0 10px var(--secondary-bg-color, #0476A3);
   display: flex;
   flex-wrap: wrap;
-  z-index: 10;
+  padding-left: 0;
 }
 nav > li {
   list-style-type: none;
@@ -38,6 +34,16 @@ nav li a {
   color: var(--secondary-txt-color, #ffffff);
   padding: 10px;
 }
+nav li:first-child a {
+  padding: 0;
+}
+
+/* Paypal link donation */
+nav li:last-child a {
+  display: inline-block;
+  line-height: unset;
+}
+
 nav li a:hover, nav li a:focus {
   color: var(--bg-highlight-color, #FFF5C2);
   text-decoration: none;
@@ -46,8 +52,9 @@ nav li a.active {
   color: var(--bg-highlight-color, #FFF5C2);
 }
 
-nav li form {
-  padding: 10px;
+nav .dropdown ul li a.active {
+  background-color: var(--bg-highlight-color);
+  color: var(--main-txt-color);
 }
 
 nav .dropdown {
@@ -55,7 +62,7 @@ nav .dropdown {
   display: inline-block;
 }
 
-nav .dropdown-content {
+li.dropdown ul {
   display: none;
   position: absolute;
   background-color: var(--main-bg-color, #FFFBE7);
@@ -63,30 +70,34 @@ nav .dropdown-content {
   z-index: 9;
 }
 
-nav .dropdown:hover > .dropdown-content {
+nav .dropdown:hover > ul {
   display: block;
   top: 40px;
   min-width: 60px;
-}
-
-nav .dropdown-content ul {
+  width: auto;
   padding: 10px 0;
   margin: 0;
 }
 
-nav .dropdown-content li {
+nav .dropdown ul li {
   list-style-type: none;
   white-space: nowrap;
   width: 100%;
 }
 
-nav .dropdown-content a {
+nav .dropdown ul a {
   display: block;
   width: calc(100% - 10px);
   color: var(--main-txt-color, #0476A3);
   padding: 0 5px;
 }
-nav .dropdown-content a:hover, nav .dropdown-content a:focus {
+nav .dropdown ul a:hover, nav .dropdown ul a:focus {
   background-color: var(--bg-highlight-color, #FFF5C2);
   color: var(--main-txt-color, #0476A3);
+}
+
+nav .red-hat-icon {
+  height: 35px;
+  margin: 5px;
+  min-width: 40px;
 }

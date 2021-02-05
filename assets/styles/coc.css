@@ -1,8 +1,0 @@
-@media print {
-  section.main {
-    margin: 20px;
-  }
-  footer {
-    display: none;
-  }
-}
