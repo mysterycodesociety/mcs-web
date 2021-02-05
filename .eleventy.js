@@ -29,9 +29,9 @@ module.exports = function(eleventyConfig) {
   });
 
 
-  // eleventyConfig.addCollection("posts", function(collection){
-  //   return collection.getFilteredByGlob(["posts/*"]);
-  // });
+  eleventyConfig.addCollection("posts", function(collection){
+    return collection.getFilteredByGlob(["posts/*"]);
+  });
 
   eleventyConfig.addCollection("pages", function(collection){
     return collection.getFilteredByGlob(["pages/*md", "pages/*liquid"]);
