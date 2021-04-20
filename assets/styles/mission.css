@@ -5,7 +5,7 @@
 }
 
 #mission {
-  top: 39px; /* 40px fudged up so background does not even slightly show through sections */
+  top: 130px; /* 40px fudged up so background does not even slightly show through sections */
   left: 0;
   transition: top 1.5s;
   z-index: 8;

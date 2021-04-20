@@ -1,16 +1,20 @@
 @media only screen and (min-width: 800px) {
-  nav {
+  header {
     position: fixed;
   }
 }
 @media only screen and (max-width: 800px) {
-  nav:after { /* doubles nav height for mobile */
+  header:after { /* doubles nav height for mobile */
     content: "";
     height: 35px;
     width: 100%;
   }
 }
-nav {
+.shareomaha-banner img {
+  margin: 0;
+}
+
+header {
   width: 100%;
   z-index: 10;
 }
