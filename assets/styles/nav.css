@@ -10,8 +10,14 @@
     width: 100%;
   }
 }
-.shareomaha-banner img {
+.shareomaha-banner {
   margin: 0;
+  height: 80px;
+  background-color: var(--secondary-bg-color);
+  background-image: url("/assets/images/share_omaha_banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 header {
