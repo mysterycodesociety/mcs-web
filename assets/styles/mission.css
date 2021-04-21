@@ -5,7 +5,7 @@
 }
 
 #mission {
-  top: 39px; /* 40px fudged up so background does not even slightly show through sections */
+  top: 120px; /* 40px fudged up so background does not even slightly show through sections */
   left: 0;
   transition: top 1.5s;
   z-index: 8;
@@ -19,5 +19,5 @@
   padding: 10px 20px 20px;
 }
 .mission-page-main { /* move down pages that include #mission */
-  padding-top: 90px;
+  padding-top: 130px;
 }

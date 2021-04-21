@@ -1,16 +1,26 @@
 @media only screen and (min-width: 800px) {
-  nav {
+  header {
     position: fixed;
   }
 }
 @media only screen and (max-width: 800px) {
-  nav:after { /* doubles nav height for mobile */
+  header:after { /* doubles nav height for mobile */
     content: "";
     height: 35px;
     width: 100%;
   }
 }
-nav {
+.shareomaha-banner {
+  margin: 0;
+  height: 80px;
+  background-color: var(--secondary-bg-color);
+  background-image: url("/assets/images/share_omaha_banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+header {
   width: 100%;
   z-index: 10;
 }
